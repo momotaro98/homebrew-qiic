@@ -2,16 +2,16 @@
 class Qiic < Formula
   desc "qiic"
   homepage "https://github.com/momotaro98/qiic"
-  version "1.2.1"
+  version "1.2.2"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/momotaro98/qiic/releases/download/v1.2.1/qiic_1.2.1_Darwin_x86_64.tar.gz"
-    sha256 "ec9885a838f17a25b491647dfdc35408cc2b6e34d6589054d8fb06d8ac0d5a62"
+    url "https://github.com/momotaro98/qiic/releases/download/v1.2.2/qiic_1.2.2_Darwin_x86_64.tar.gz"
+    sha256 "aec8233e20640527bcb5b4e3ecb02110c00198fbf762f8b3be47e0e778704779"
   elsif OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/momotaro98/qiic/releases/download/v1.2.1/qiic_1.2.1_linux_x86_64.tar.gz"
-      sha256 "464e01002455f80ec152005d5116da8aeb447cb0f8bd75eab8635d9433e91c50"
+      url "https://github.com/momotaro98/qiic/releases/download/v1.2.2/qiic_1.2.2_linux_x86_64.tar.gz"
+      sha256 "7b5f859ebf66ed7d764b382eace732a8d196fb7ed01fc0b9ab08efc81b81a29d"
     end
   end
 
